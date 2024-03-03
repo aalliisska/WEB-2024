@@ -7,6 +7,7 @@ body {
 header {
     width: 100%;
     background: url("./images/top_background.jpg");
+    background-size: cover;
     height: 500px;
     overflow: hidden;
 }
@@ -20,7 +21,7 @@ header {
 }
 
 .navigation__button {
-    font: 400 12px/20px 'Oxygen';
+    font: 400 12px/20px 'Oxygen', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.6px;
@@ -39,7 +40,7 @@ header {
 }
 
 .intro__title {
-    font: 50px 'Lora';
+    font: 50px 'Lora', sans-serif;
     text-align: center;
     color: rgba(255, 255, 255, 1);
     line-height: 51px;
@@ -48,7 +49,7 @@ header {
 }
 
 .intro__under {
-    font: 17px 'Oxygen';
+    font: 17px 'Oxygen', sans-serif;
     text-align: center;
     color: rgba(255, 255, 255, 0.63);
     line-height: 20px;
@@ -56,7 +57,7 @@ header {
 }
 
 .intro__button {
-    font: 13px 'Oxygen';
+    font: 13px 'Oxygen', sans-serif;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(221, 120, 63, 1);
     text-decoration: none;
@@ -76,7 +77,7 @@ header {
 }
 
 .menu__section {
-    font: 14px 'Lora';
+    font: 14px 'Lora', sans-serif;
     text-align: center;
     line-height: 20px;
     color: rgba(118, 128, 136, 1);
@@ -93,7 +94,7 @@ header {
 }
 
 .title{
-    font: 20px 'Oxygen';
+    font: 20px 'Oxygen', sans-serif;
     text-align: center;
     color: rgba(46, 46, 46, 1);
     line-height: 27px;
@@ -130,14 +131,13 @@ header {
 }
 
 .second-post__marking {
-    font: 12px 'Oxygen';
+    font: 12px 'Oxygen', sans-serif;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(221, 120, 63, 1);
     display: inline-block;
     width: 87px;
     height: 26px;
     text-align: center;
-    position: absolute;
     line-height: 25px;
     border-radius: 3px;
     margin-left: 20px;
@@ -147,7 +147,7 @@ header {
 .featured-posts-title {
     font-size: 27px;
     text-align: left;
-    font-family: 'Lora';
+    font-family: 'Lora', sans-serif;
     color: rgba(255, 255, 255, 1);
     line-height: 30px;
     padding-top: 150px;
@@ -155,8 +155,19 @@ header {
     margin: 0;
 }
 
+.second-post__title {
+    font-size: 27px;
+    text-align: left;
+    font-family: 'Lora', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+    padding-top: 90px;
+    padding-left: 20px;
+    margin: 0;
+}
+
 .featured-posts-text {
-    font: 14px 'Oxygen';
+    font: 14px 'Oxygen', sans-serif;
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
     line-height: 25px;
@@ -181,14 +192,14 @@ header {
 }
 
 .featured-publication__author-name {
-    font: 12px 'Oxygen';
+    font: 12px 'Oxygen', sans-serif;
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
     line-height: 35px;
 }
 
 .featured-publication__data {
-    font: 12px 'Oxygen';
+    font: 12px 'Oxygen', sans-serif;
     text-align: right;
     color: rgba(255, 255, 255, 0.7);
     line-height: 35px;
@@ -209,9 +220,9 @@ header {
 .post {
     display: flex;
     flex-direction: column;
-    width: 100%;
     width: 296px;
     background-color: rgba(255, 255, 255, 1);
+    justify-content: space-between;
 }
 
 .center {
@@ -226,7 +237,7 @@ header {
 }
 
 .center__title {
-    font: 16px 'Lora';
+    font: 16px 'Lora', sans-serif;
     text-align: left;
     color: rgba(16, 19, 21, 1);
     line-height: 21px;
@@ -236,7 +247,7 @@ header {
 }
 
 .center__text {
-    font: 13px 'Oxygen';
+    font: 13px 'Oxygen', sans-serif;
     text-align: left;
     color:rgba(122, 122, 122, 1);
     line-height: 19px;
@@ -247,6 +258,7 @@ header {
 }
 
 .recent-publication {
+    float: left;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -257,14 +269,14 @@ header {
 }
 
 .recent-publication__author-name {
-    font: 11px 'Oxygen';
+    font: 11px 'Oxygen', sans-serif;
     text-align: left;
     color:rgba(153, 153, 153, 1);
     line-height: 35px;
 }
 
 .recent-publication__data {
-    font: 12px 'Oxygen';
+    font: 12px 'Oxygen', sans-serif;
     text-align: right;
     color: rgba(153, 153, 153, 1);
     line-height: 35px;
@@ -279,11 +291,12 @@ footer {
     align-items: center;
     justify-content: space-around;
     background: url("./images/background.jpeg");
+    background-size: cover;
     margin: 0 auto;
 }
 
 .navigation__button-foot {
-    font: 12px 'Oxygen';
+    font: 12px 'Oxygen', sans-serif;
     text-align: center;
     text-transform: uppercase;
     line-height: 20px;
