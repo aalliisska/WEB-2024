@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./staticc/css/home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    <div class="top">
+      <img src="./staticc/images/logo.svg" alt="Logo">
+        <nav class="navigation">
+          <a class="navigation__button" href="#">Home</a>
+          <a class="navigation__button" href="#">Categories</a>
+          <a class="navigation__button" href="#">About</a>
+          <a class="navigation__button" href="#">Contact</a>
+        </nav>
+    </div>
+
+    <div class="intro">
+      <h1 class="intro__title">Let's do it together.</h1>
+      <h2 class="intro__under">We travel the world in search of stories. Come along for the ride.</h2>
+      <a class="intro__button" href="#">View Latest Posts</a>
+    </div>
+  </header>
+
+  <main>
+    <nav class="menu">
+      <a class="menu__section" href="#">Nature</a>
+      <a class="menu__section" href="#">Photography</a>
+      <a class="menu__section" href="#">Relexation</a>
+      <a class="menu__section" href="#">Vacation</a>
+      <a class="menu__section" href="#">Travel</a>
+      <a class="menu__section" href="#">Adventure</a>
+    </nav>
+
+    <div class="sector">
+      <h3 class="sector__title title">Featured Posts</h3>
+      <div class="featured-posts">
+        <div class="featured-post">
+          <img src="./staticc/images/the_road_ahead.jpeg" class="featured-post__background"/>
+          <h3 class="featured-posts-title">The Road Ahead</h3>
+          <p class="featured-posts-text">The road ahead might be paved - it might not be.</p>
+          <div class="featured-publication">
+            <img class="featured-publication__author author" src="./staticc/images/mat.jpeg" alt="Mat Vogels">
+            <p class="featured-publication__author-name">Mat Vogels</p>
+            <p class="featured-publication__data">September 25, 2015</p>
+          </div>
+        </div>
+
+        <div class="featured-post">
+          <img src="./staticc/images/from_top_down.jpeg" class="featured-post__background"/>
+          <p class="featured-post__marking">ADVENTURE</p>
+          <h3 class="featured-posts-title">From Top Down</h3>
+          <p class="featured-posts-text">Once a year, go someplace you’ve never been before.</p>
+            <div class="featured-publication">
+              <img class="featured-publication__author author" src="./staticc/images/william.jpeg" alt="William Wong">
+              <p class="featured-publication__author-name">William Wong</p>
+              <p class="featured-publication__data">September 25, 2015</p>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="main_title title">Most Recent</h3>
+    <div class="recent-posts">
+      <div class="post">
+        <img class="post__image" src="./staticc/images/still_standing_tall.jpeg" alt="Still standing tall">
+        <h3 class="post__title">Still Standing Tall</h3>
+        <p class="post__text">Life begins at the end of your comfort zone.</p>
+        <div class="recent-publication">
+          <img class="recent-publication__author author" src="./staticc/images/william.jpeg" alt="William Wong">
+          <p class="recent-publication__author-name">William Wong</p>
+          <p class="recent-publication__data">9/25/2015</p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img class="post__image" src="./staticc/images/sunny_side.jpeg" alt="Sunny Side Up">
+        <h3 class="post__title">Sunny Side Up</h3>
+        <p class="post__text">No place is ever as bad as they tell you it’s going to be.</p>
+        <div class="recent-publication">
+          <img class="recent-publication__author author" src="./staticc/images/mat.jpeg" alt="Mat Vogels">
+          <p class="recent-publication__author-name">Mat Vogels</p>
+          <p class="recent-publication__data">9/25/2015</p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img class="post__image" src="./staticc/images/water_falls.jpeg" alt="Water Falls">
+        <h3 class="post__title">Water Falls</h3>
+        <p class="post__text">We travel not to escape life, but for life not to escape us..</p>
+        <div class="recent-publication">
+          <img class="recent-publication__author author" src="./staticc/images/mat.jpeg" alt="Mat Vogels">
+          <p class="recent-publication__author-name">Mat Vogels</p>
+          <p class="recent-publication__data">9/25/2015</p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img class="post__image" src="./staticc/images/through_the_mist.jpeg" alt="Through the Mist">
+        <h3 class="post__title">Through the Mist</h3>
+        <p class="post__text">Travel makes you see what a tiny place you occupy in the world.</p>
+        <div class="recent-publication">
+          <img class="recent-publication__author author" src="./staticc/images/william.jpeg" alt="William Wong">
+          <p class="recent-publication__author-name">William Wong</p>
+          <p class="recent-publication__data">9/25/2015</p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img class="post__image" src="./staticc/images/awaken_early.jpeg" alt="Awaken Early">
+        <h3 class="post__title">Awaken Early</h3>
+        <p class="post__text">Not all those who wander are lost.</p>
+        <div class="recent-publication">
+          <img class="recent-publication__author author" src="./staticc/images/mat.jpeg" alt="Mat Vogels">
+          <p class="recent-publication__author-name">Mat Vogels</p>
+          <p class="recent-publication__data">9/25/2015</p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img class="post__image" src="./staticc/images/try_it_always.jpeg" alt="Try it Always">
+        <h3 class="post__title">Try it Always</h3>
+        <p class="post__text">The world is a book, and those who do not travel read only one page.</p>
+        <div class="recent-publication">
+          <img class="recent-publication__author author" src="./staticc/images/mat.jpeg" alt="Mat Vogels">
+          <p class="recent-publication__author-name">Mat Vogels</p>
+          <p class="recent-publication__data">9/25/2015</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <img src="./staticc/images/logo.svg" alt="Logo">
+    <nav class="navigation">
+        <a class="navigation__button-foot" href="#">Home</a>
+        <a class="navigation__button-foot" href="#">Categories</a>
+        <a class="navigation__button-foot" href="#">About</a>
+        <a class="navigation__button-foot" href="#">Contact</a>
+    </nav>
+  </footer>
+</body>
+
+</html>
