@@ -1,22 +1,5 @@
 <?php
 $posts = [
- [ 'id' => 1,
-   'background' => './staticc/images/the_road_ahead.jpeg', 
-   'title' => 'The Road Ahead',
-   'subtitle' => 'The road ahead might be paved - it might not be.',
-   'author_photo' => './staticc/images/mat.jpeg',
-   'author_name' => 'Mat Vogels',
-   'post_data' => '1443157070',
- ],
- [ 'id' => 2,
-   'background' => './staticc/images/from_top_down.jpeg', 
-   'marking' => 'ADVENTURE',
-   'title' => 'From Top Down',
-   'subtitle' => 'Once a year, go someplace you’ve never been before.',
-   'author_photo' => './staticc/images/william.jpeg',
-   'author_name' => 'William Wong',
-   'post_data' => '1443157070',
- ],
  [ 'id' => 3,
    'image' => './staticc/images/still_standing_tall.jpeg', 
    'title' => 'Still Standing Tall',
@@ -111,12 +94,30 @@ $posts = [
     <div class="sector">
       <h3 class="sector__title title">Featured Posts</h3>
       <div class="featured-posts">
-      <?php 
-      foreach ($posts as $post) {
-       include 'post_preview.php';
-      }
-      ?>
-    </div>
+        <div class="featured-post">
+            <img src="./staticc/images/the_road_ahead.jpeg" class="featured-post__background"/>
+            <h3 class="featured-posts-title">The Road Ahead</h3>
+            <p class="featured-posts-text">The road ahead might be paved - it might not be.</p>
+            <div class="featured-publication">
+              <img class="featured-publication__author author" src="./staticc/images/mat.jpeg" alt="Mat Vogels">
+              <p class="featured-publication__author-name">Mat Vogels</p>
+              <p class="featured-publication__data">September 25, 2015</p>
+            </div>
+          </div>
+
+          <div class="featured-post">
+            <img src="./staticc/images/from_top_down.jpeg" class="featured-post__background"/>
+            <p class="featured-post__marking">ADVENTURE</p>
+            <h3 class="featured-posts-title">From Top Down</h3>
+            <p class="featured-posts-text">Once a year, go someplace you’ve never been before.</p>
+              <div class="featured-publication">
+                <img class="featured-publication__author author" src="./staticc/images/william.jpeg" alt="William Wong">
+                <p class="featured-publication__author-name">William Wong</p>
+                <p class="featured-publication__data">September 25, 2015</p>
+              </div>
+          </div>
+        </div>
+      </div>
 
     <h3 class="main_title title">Most Recent</h3>
     <div class="recent-posts">

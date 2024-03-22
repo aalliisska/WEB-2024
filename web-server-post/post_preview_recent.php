@@ -1,4 +1,3 @@
-
 <a href='/post?id=<?= $post['id'] ?>'>
 <div class="post">
     <img class="post__image" src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
